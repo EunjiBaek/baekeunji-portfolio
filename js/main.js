@@ -10,6 +10,7 @@ const typingTexts = [
   'Next.js Fullstack Developer',
   'CI/CD 자동화 설계자',
   'AI Search 구축자',
+  'AI 업무 자동화 시스템 구축자',
   '구조·배포·운영까지 책임지는 개발자',
 ];
 
