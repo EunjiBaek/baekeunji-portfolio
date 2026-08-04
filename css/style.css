@@ -1065,6 +1065,14 @@ img {
   font-weight: 600;
 }
 
+.tl-section-title {
+  margin: 8px 0 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--cyan-400);
+  letter-spacing: 0.04em;
+}
+
 .tl-tags {
   display: flex;
   flex-wrap: wrap;
