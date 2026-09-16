@@ -1,0 +1,22 @@
+/*
+  주요 화면은 최소 한 뷰포트(100vh)를 사용합니다.
+  height 고정 대신 min-height를 적용해 긴 경력 내용과 모바일 화면이 잘리지 않게 했습니다.
+*/
+.hero,
+.about,
+.skills,
+.career,
+.contact,
+.project {
+  min-height: 100vh;
+}
+
+.project {
+  scroll-margin-top: 76px;
+}
+
+@media (max-width: 900px) {
+  .project {
+    scroll-margin-top: 64px;
+  }
+}
